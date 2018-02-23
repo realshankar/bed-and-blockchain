@@ -5,7 +5,7 @@ App = {
 
   init: function() {
     // Load property details
-    $.getJSON('../property.json', function(data) {
+    $.getJSON('../../src/property.json', function(data) {
       var propertiesRow = $('#propertiesRow');
       var propertyTemplate = $('#propertyTemplate');
 
