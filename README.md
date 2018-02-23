@@ -1,7 +1,8 @@
 # Bed'n'Blockchain
 ***A simple decentralized booking system dapp built with Solidity and Truffle.***
 
-#Tools Required:#
+
+## Tools Required:
 
 * Solidity
 * Ganache
@@ -10,7 +11,8 @@
 * Node.js
 * MetaMask
 
-#Running the dapp#
+
+## Running the dapp:
 
 Upon cloning the repo, cd into the directory using your terminal/command line and run:
 	
