@@ -4,6 +4,8 @@
 
 ## Tools Required:
 
+Before you clone this repo, ensure you have the following tools installed:
+
 * Solidity
 * Ganache
 * Truffle
@@ -11,6 +13,7 @@
 * Node.js
 * MetaMask
 
+For full setup instructions, read the [instructions here]('setup-instructions.md')
 
 ## Running the dapp:
 
@@ -37,4 +40,10 @@ Now you are ready to launch the dapp. This dapp uses Lite Server to run in the b
 Your dapp should open a browser to localhost, and you should see the following:
 
 ![Dapp Preview Image](images/bed-n-blockchain-preview.png)
+
+If you receive an error that refers to lite-server, delete the node_modules/lite-server subdirectory and run: 
+
+	npm install lite-server
+
+This should force the install and configuration. If you receive another error, delete the node_modules and build subdirectories and rerun the above commands. 
 
