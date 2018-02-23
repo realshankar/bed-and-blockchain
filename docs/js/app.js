@@ -5,7 +5,7 @@ App = {
 
   init: function() {
     // Load property details
-    $.getJSON('../../src/property.json', function(data) {
+    $.getJSON('https://raw.githubusercontent.com/thetrendytechie/bed-and-blockchain/master/src/property.json', function(data) {
       var propertiesRow = $('#propertiesRow');
       var propertyTemplate = $('#propertyTemplate');
 
